@@ -4,9 +4,9 @@
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name Elixa",
-      "stop": "pm2 stop elixa",
-     "restart": "pm2 restart elixa"
+      "start": "pm2 start index.js --deep-monitoring --attach --name ZENITSU-MD-V3",
+      "stop": "pm2 stop ZENITSU-MD-V3",
+     "restart": "pm2 restart ZENITSU-MD-V3"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "git+https://github.com/prabathLK/Baileys-6.0.0.git#master",
