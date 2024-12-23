@@ -109,11 +109,11 @@ async function doesGitHubRepoExist(owner, repo) {
 function deployToHeroku() {
   var usernameInput = document.getElementById("githubUsername");
   var username = usernameInput.value.trim().replace(/\s+/g, ''); // Remove leading/trailing spaces and internal spaces
-  var repoName = 'VAJIRA-MD';
+  var repoName = 'ZENITSU-MD-V3';
   
   doesGitHubRepoExist(username, repoName).then((exists) => {
     if (exists) {
-      var herokuURL = `https://heroku.com/deploy?template=https://github.com/${username}/VAJIRA-MD`;
+      var herokuURL = `https://heroku.com/deploy?template=https://github.com/${username}/ZENITSU-MD-V3`;
       window.location.href = herokuURL;
     } else {
       console.log('Repository does not exist or error occurred.');
