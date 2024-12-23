@@ -60,7 +60,7 @@ router.get('/', async (req, res) => {
                         const sid = string_session;
 
                         const dt = await PrabathPairWeb.sendMessage(user_jid, { 
-    text: `ELIXAMD❤️${sid}` 
+    text: `ZENITSU-MD=${sid}` 
 
                         });
 
